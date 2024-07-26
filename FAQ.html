@@ -20,7 +20,7 @@
                     <li><a  href="blog.html">Blog</a></li>
                     <li><a  href="about.html">About</a></li>
                     <li><a  href="contact.html">Contact</a></li>
-                    <li><a   class="active"  href="FAQ.html">FAQ</a></li>
+                    <li><a   class="active"  onclick="myfaq()" href="FAQ.html">FAQ</a></li>
                     <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
                     <a href="#" id="close"><i class="far fa-times"></i></a>
                 </ul>
@@ -110,7 +110,7 @@
                 <p>From App Store or Google Play</p> 
                 <div class="row">
                     <img src="img/pay/app.jpg" alt="">
-                    <img srcw"img/pay/play.jpg" alt"">
+                    <img src="img/pay/play.jpg" alt="">
                 </div>
                 <p>Secured Payment Gateways </p>
                 <img src="img/pay/pay.png" alt="">
@@ -119,7 +119,13 @@
                 <p>etc-HTML CSS Ecommerce Template</p>
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script >
+        function myfaq(){
+            var count=0;
+            alert('Ask questions Hear!'+count+1);
+
+        }
+        </script>
     </body>
 
 </html>
